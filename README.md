@@ -11,8 +11,8 @@ Java · Quarkus · GraalVM native · Agent infrastructure (MCP, RAG, harnesses) 
 [![X](https://img.shields.io/badge/X-cmolgal-0D1117?style=flat-square&logo=x&logoColor=white)](https://x.com/cmolgal)
 [![Medium](https://img.shields.io/badge/Medium-cmolg-0D1117?style=flat-square&logo=medium&logoColor=white)](https://medium.com/@cmolg)
 [![Email](https://img.shields.io/badge/Email-cmolgaldev@gmail.com-0D1117?style=flat-square&logo=gmail&logoColor=white)](mailto:cmolgaldev@gmail.com)
-![Location](https://img.shields.io/badge/Murcia,%20Spain-CET%20·%20Remote-0D1117?style=flat-square&logo=googlemaps&logoColor=white)
-![Available](https://img.shields.io/badge/open%20to-contract%20work%20(EU%20/%20US)-10B981?style=flat-square)
+![Location](https://img.shields.io/badge/Spain-CET-0D1117?style=flat-square&logo=googlemaps&logoColor=white)
+[![FIERCE paper](https://img.shields.io/badge/paper-FIERCE-10B981?style=flat-square&logo=doi&logoColor=white)](https://doi.org/10.5281/zenodo.23972303)
 
 `▓▓▒▒░░ ·  ·   ·    ·     ·    ·   ·  · ░░▒▒▓▓`
 
@@ -24,11 +24,11 @@ Java · Quarkus · GraalVM native · Agent infrastructure (MCP, RAG, harnesses) 
 
 ## Hi, I'm Carlos
 
-I'm a senior engineer from Murcia, Spain, working as an independent contractor. Most of my career has been spent inside Java distributed systems — Capgemini, Accenture, and then TuLotero — and the last couple of years putting agentic AI into **production** instead of into demos.
+I'm a senior engineer from Spain. Most of my career has been spent inside Java distributed systems — Capgemini, Accenture, and then TuLotero — and the last couple of years putting agentic AI into **production** instead of into demos.
 
 I like the unglamorous half of AI engineering: invariants, guardrails, harnesses, regression tests with mutability, and the boring plumbing that decides whether an agent is a product or a party trick. If something I build ends up being useful to someone else, even better — that's why most of it ends up here in the open.
 
-Right now I'm CTO & Tech Lead at **Javadaba** and **Legally**, and I build in public whenever the work allows it.
+I'm CTO & Tech Lead at **[Javadaba](https://javadaba.com)**, where I build the tools I work with every day: a board that people and agents share, and the harness those agents run on. Both are open now, in their Local editions.
 
 <div align="center">
 
@@ -38,10 +38,36 @@ Right now I'm CTO & Tech Lead at **Javadaba** and **Legally**, and I build in pu
 
 ## What I'm building
 
-| Project | What it is |
-| --- | --- |
-| **[fluxor-ide](https://github.com/CMolG/fluxor-ide)** | An open-source agentic IDE built on step-DAG flows — roles, mods, triggers, MCP client integration, backlog cards and a notification center. Flows can be containerized and deployed as detached apps exposing MCP over Streamable HTTP, so agents can talk to each other. |
-| **[cognitive-skills](https://github.com/CMolG/cognitive-skills)** | A framework that extracts a person's cognitive profile and generates a personalized set of skills from it. |
+<table>
+<tr>
+<td width="50%" valign="top">
+<a href="https://github.com/CMolG/officium">
+<picture>
+<source media="(prefers-color-scheme: dark)" srcset="assets/officium-dark.svg">
+<img alt="Officium" src="assets/officium-light.svg" width="100%">
+</picture>
+</a>
+
+**[Officium](https://github.com/CMolG/officium)**: a backlog you and your AI agents work on together. Agents pick their next card over MCP and move it as they work, review sends work back with its reasons, and what only you can decide waits in a *Needs you* lane. Free and self-hosted with Docker.
+
+</td>
+<td width="50%" valign="top">
+<a href="https://github.com/CMolG/fluxor">
+<picture>
+<source media="(prefers-color-scheme: dark)" srcset="assets/fluxor-dark.svg">
+<img alt="Fluxor" src="assets/fluxor-light.svg" width="100%">
+</picture>
+</a>
+
+**[Fluxor](https://github.com/CMolG/fluxor)**: the harness your agents work with. Rules, skills and hooks kept as versioned items and installed into any repo with `fluxor-sync`, plus `autoloop`, which runs several agents in parallel, one git worktree each.
+
+</td>
+</tr>
+</table>
+
+Both come from **[FIERCE](https://doi.org/10.5281/zenodo.23972303)**, my position paper on how to organize software development once agents carry the implementation: a few experts hold the decisions, and nothing counts as done without evidence.
+
+**Also open:** [javadaba-seo-sdk](https://github.com/CMolG/javadaba-seo-sdk) and [n8n-nodes-javadaba-seo](https://github.com/CMolG/n8n-nodes-javadaba-seo) · [fluxor-ide](https://github.com/CMolG/fluxor-ide), the desktop IDE where Fluxor started.
 
 **Also cooking:** RegWatch, a regulatory radar for Spanish normative sources (BOE, AEAT, TGSS, SEPE) on Drools/Kogito · a dithered component library where nothing is an SVG curve and everything is composed from atoms · a pay-per-use API catalog distributed over MCP.
 
@@ -196,15 +222,15 @@ Right now I'm CTO & Tech Lead at **Javadaba** and **Legally**, and I build in pu
 
 ## What I think about
 
-**Harness engineering** as an emerging discipline — the harness as the deterministic partition of the system, while context behaves as a writable partition prone to rot. **Poisoned code**: context poisoning, codebase poisoning, adversarial poisoning, and what a real detection posthook looks like. **Neuro-symbolic invariant inference.** And, further out, what an AI-native OS and its UX should actually feel like.
+**Harness engineering** as an emerging discipline — the harness as the deterministic partition of the system, while context behaves as a writable partition prone to rot. **What a development team is for** once one engineer can drive agents through whole epics, which is the question [FIERCE](https://doi.org/10.5281/zenodo.23972303) tries to answer. **Poisoned code**: context poisoning, codebase poisoning, adversarial poisoning, and what a real detection posthook looks like. **Neuro-symbolic invariant inference.** And, further out, what an AI-native OS and its UX should actually feel like.
 
 <div align="center">
 
 `░▒▓ ─────────────────────────────────────── ▓▒░`
 
-## Let's talk
+## Say hi
 
-I take contract work in **AI infrastructure**, **fractional CTO** engagements, **performance rescue**, and **Java modernization**. Remote, CET, available to start soon.
+Questions about Officium, Fluxor or FIERCE, or about harnesses and agents in production in general: I'm happy to talk shop. Issues on the repos are welcome too.
 
 [![LinkedIn](https://img.shields.io/badge/Say%20hi%20on%20LinkedIn-0D1117?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/cmolg)
 [![Medium](https://img.shields.io/badge/Read%20me%20on%20Medium-0D1117?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@cmolg)
